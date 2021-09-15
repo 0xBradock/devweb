@@ -1,0 +1,45 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "🕵️  Let's check that code quality";
+
+# Check tsconfig standards
+npm run check-types ||
+(
+  echo "❌ 🤢 TS types check failed - Run npm run check-types, add changes and try commiting again";
+  false;
+)
+
+# Check Prettier Standards
+npm run check-format ||
+(
+  echo "❌ 🤢 Prettier check failed - Run npm run format, add changes and try commiting again";
+  false;
+)
+
+# Check ESLint Standards
+npm run check-lint ||
+(
+  echo "❌ 🤢 ESLint check failed - Make the changes proposed above, add changes and try again";
+  false;
+)
+
+# All checks passed
+echo "😎 Code is looking good. Let's try to build 🛠️";
+
+# Testing
+npm run test ||
+(
+  echo "❌ 🤢 App test failed - Fix errors above, and try again";
+  false;
+)
+
+# Building
+npm run build ||
+(
+  echo "❌ 🤢 Next build failed - Fix errors above, add changes and try again";
+  false;
+)
+
+# Ready to commit
+echo "✅ 👩‍🚀 Mision control, code is ready to 🚀 push to commit"
