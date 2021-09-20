@@ -12,8 +12,8 @@ const Experience: FC<ExpProps> = ({ exp }) => (
   <div className="experience">
     <h3>Experiences</h3>
     {exp.map((e) => (
-      <>
-        <div key={slugify(e.company.name)} className="experience__company">
+      <div key={slugify(e.company.name)}>
+        <div className="experience__company">
           <span className="experience__company--title">{e.jobTitle}</span> @
           <br />
           <span className="experience__company--section">Company:</span>{" "}
@@ -25,10 +25,7 @@ const Experience: FC<ExpProps> = ({ exp }) => (
           <br />
           <span className="experience__company--section">Achievements:</span>
           {e.achievements.map((a) => (
-            <>
-              <br />
-              {`+ ${a}`}
-            </>
+            <p key={slugify(a.slice(0, 25))}>{`+ ${a}`}</p>
           ))}
           <br />
           <span className="experience__company--section">Languages: </span>
@@ -41,7 +38,7 @@ const Experience: FC<ExpProps> = ({ exp }) => (
             <>
               <span className="experience__company--section">Published: </span>
               {e.published.map((p) => (
-                <>
+                <div key={slugify(p.resource)}>
                   <Link href={`${p.url}`} passHref>
                     <a
                       className="experience__company--link"
@@ -52,13 +49,13 @@ const Experience: FC<ExpProps> = ({ exp }) => (
                       {`${p.resource}`}
                     </a>
                   </Link>{" "}
-                </>
+                </div>
               ))}
             </>
           )}
         </div>
         <hr />
-      </>
+      </div>
     ))}
   </div>
 );
