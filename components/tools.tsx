@@ -31,8 +31,6 @@ const Tools: FC = () => {
 
   const some = ["TypeScript", "RabbitMQ", "Kubernetes", "Jinja2"];
 
-  console.log(slugify("some string"));
-
   return (
     <div className="tools">
       <h3>Tools and Languages</h3>
@@ -43,7 +41,7 @@ const Tools: FC = () => {
           {comfortable.map((tool) => (
             <img
               className="tools__level--icon"
-              key={slugify(tool, { lower: true })}
+              key={`c-${slugify(tool, { lower: true })}`}
               src={`/icons/${slugify(tool, { lower: true })}.svg`}
               alt={`icon ${tool}`}
               height="30px"
@@ -55,18 +53,14 @@ const Tools: FC = () => {
         <p>{familiar.join(", ")}</p>
         <p>
           {familiar.map((tool) => (
-            <>
-              {console.log(slugify(tool, { lower: true }))}
-
-              <img
-                className="tools__level--icon"
-                key={slugify(tool, { lower: true })}
-                src={`/icons/${slugify(tool, { lower: true })}.svg`}
-                alt={`icon ${tool}`}
-                height="30px"
-                width="30px"
-              />
-            </>
+            <img
+              className="tools__level--icon"
+              key={`f-${slugify(tool, { lower: true })}`}
+              src={`/icons/${slugify(tool, { lower: true })}.svg`}
+              alt={`icon ${tool}`}
+              height="30px"
+              width="30px"
+            />
           ))}
         </p>
         <span className="tools__level--title">I have some knowledge:</span>
@@ -75,7 +69,7 @@ const Tools: FC = () => {
           {some.map((tool) => (
             <img
               className="tools__level--icon"
-              key={slugify(tool, { lower: true })}
+              key={`s-${slugify(tool, { lower: true })}`}
               src={`/icons/${slugify(tool, { lower: true })}.svg`}
               alt={`icon ${tool}`}
               height="30px"
