@@ -86,8 +86,8 @@
       "linux"
     ],
     "published": [
-      { "resource": "web 1", "url": "cliniquenutrisante.net" },
-      { "resource": "web 2", "url": "cliniquenutrisante.fr" }
+      { "resource": "web 1", "url": "https://www.cliniquenutrisante.net/" },
+      { "resource": "web 2", "url": "https://www.cliniquenutrisante.fr/" }
     ],
     "repo": ""
   },

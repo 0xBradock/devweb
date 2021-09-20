@@ -15,16 +15,6 @@ const Contact: FC = () => (
       <div className="contact__summary--title">👋 Hello</div>
     </div>
     <div className="contact__summary--content">
-      {/* Graduate in Electrical Engineering and a Master's degree in Computer
-      Science, I am interested in Programming and C Programming Language.
-      
-      My professional experience is with hardware development, systems integration,
-      software design and system-on-chip for electronic devices.
-      
-      In my personal activities, I like to spend time with sport and reading books.
-      
-      In my personal life I also enjoy dancing, cooking and outdoor activities. It
-      helps me to see the world with new perspectives */}
       <p>
         👨‍🎓 Graduate both in Electronics Engineering and Industrial Informatics
         Engineering, I am deeply passionate about how we can leverage technology
@@ -44,10 +34,16 @@ const Contact: FC = () => (
       </p>
     </div>
     <div className="contact__social">
-      <i className="contact__social--icon fab fa-github-square fa-3x" />{" "}
-      {/* <i className="contact__social--icon fab fa-github fa-3x" />{" "} */}
-      <i className="contact__social--icon fab fa-linkedin fa-3x" />{" "}
-      {/* <i className="contact__social--icon fab fa-linkedin-in fa-3x" /> */}
+      <a href="https://github.com/Kmelow/" target="_blank" rel="noreferrer">
+        <i className="contact__social--icon fab fa-github-square fa-3x" />{" "}
+      </a>
+      <a
+        href="https://www.linkedin.com/in/camilo-coelho-ab844732/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <i className="contact__social--icon fab fa-linkedin fa-3x" />
+      </a>
     </div>
   </div>
 );
