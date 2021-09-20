@@ -1,0 +1,22 @@
+// Variables
+
+// Basic colors
+$blackColor: #161616;
+$redColor: #d46a6a;
+$greenColor: #67c9a8;
+$yellowColor: #d8c56f;
+$magentaColor: #9d7de0;
+$whiteColor: #dbdbdb;
+
+// Variations of color
+$lightBlackColor: #4d4d4d;
+
+$backgroundColor: #1c1b22;
+$selectionColor: #a394f033;
+$borderColor: #0f0f0f;
+$fontWeightBold: normal;
+
+// Sizes
+$headerHeight: 5rem;
+$footerHeight: 5rem;
+$minBodyHeight: calc(100vh - $headerHeight - $footerHeight);

@@ -1,0 +1,13 @@
+.experience {
+  margin-top: 3rem;
+  &__company--section {
+    color: $greenColor;
+  }
+  &__company--title {
+    color: $redColor;
+  }
+  &__company--link {
+    color: $magentaColor;
+    text-decoration: underline;
+  }
+}

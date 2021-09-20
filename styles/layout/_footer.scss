@@ -1,0 +1,14 @@
+.footer {
+  height: $footerHeight;
+  &__credits {
+    text-align: center;
+
+    font-size: 1.2rem;
+    @include respond(tab-port) {
+      font-size: 1.5rem;
+    }
+    &--icon {
+      color: $greenColor;
+    }
+  }
+}

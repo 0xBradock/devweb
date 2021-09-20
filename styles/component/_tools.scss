@@ -1,0 +1,12 @@
+.tools {
+  margin-top: 3rem;
+  &__level {
+    &--title {
+      color: $greenColor;
+    }
+    &--icon {
+      border-radius: 4px;
+      margin-right: 1rem;
+    }
+  }
+}
