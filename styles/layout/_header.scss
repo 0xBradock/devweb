@@ -1,0 +1,36 @@
+// Header
+.header {
+  // padding: 2rem 0;
+  height: $headerHeight;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    &--root {
+      color: $magentaColor;
+    }
+
+    &--cursor {
+      display: inline-block;
+      width: 10px;
+      height: 1px;
+      background: $greenColor;
+      margin: -0.3rem 0.2rem;
+
+      animation: blink 1s linear infinite;
+    }
+  }
+
+  &__nav-item {
+    color: $magentaColor;
+    padding-left: 2rem;
+
+    &--desc {
+      display: none;
+      @include respond(tab-port) {
+        display: inline;
+      }
+    }
+  }
+}

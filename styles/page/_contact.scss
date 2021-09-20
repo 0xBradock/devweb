@@ -1,0 +1,36 @@
+.contact {
+  min-height: $minBodyHeight;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+
+  &__profile {
+    position: relative;
+    width: 50vw;
+    height: 50vw;
+    max-width: 248px;
+    max-height: 248px;
+    &--img {
+      border-radius: 50%;
+    }
+  }
+
+  &__summary {
+    &--title {
+      font-size: 4rem;
+    }
+
+    &--content {
+      text-align: justify;
+      text-justify: inter-word;
+      max-width: 800px;
+      margin: 3rem;
+    }
+  }
+
+  &__social--icon {
+    color: $magentaColor;
+  }
+}

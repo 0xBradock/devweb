@@ -1,0 +1,141 @@
+[
+  {
+    "company": {
+      "name": "Sport Data Intelligence",
+      "city": "Annecy",
+      "country": "FR"
+    },
+    "startDate": "December 2020",
+    "endDate": "current",
+    "jobTitle": "CTO",
+    "achievements": [
+      "Analysed and chosen the tech stack and architecture best suited for the different products",
+      "Planned, developed and deployed the flexijoe.com web app, using NextJS and Go",
+      "Planned and mentored a team of 2 jr devs on the SDI reconstruction (Agile), using NextJS",
+      "Introduced and mentored the developers on adopting Git (Gitflow)",
+      "Planned, developed, unit tested and documented the main API, using Go and OpenAPI v3"
+    ],
+    "progLanguages": ["JavaScript", "Go"],
+    "tools": [
+      "NextJS",
+      "Sass",
+      "MaterialUI",
+      "Jenkins",
+      "RabbitMQ",
+      "Docker",
+      "Kubernetes",
+      "OpenAPI v3",
+      "DevOps",
+      "MongoDB",
+      "DigitalOcean",
+      "Agile",
+      "linux"
+    ],
+    "published": [
+      { "resource": "flexijoe.com", "url": "https://www.flexijoe.com/" },
+      {
+        "resource": "SDI web",
+        "url": "https://sport-data-intelligence.com/"
+      },
+      {
+        "resource": "SDI API",
+        "url": "https://documenter.getpostman.com/view/16257898/TzkzpJpf"
+      }
+    ],
+    "repo": ""
+  },
+  {
+    "company": {
+      "name": "GoConcept @ Pfeiffer Vacuum",
+      "city": "Annecy",
+      "country": "FR"
+    },
+    "startDate": "October 2019",
+    "endDate": "December 2020",
+    "jobTitle": "Software Engineer Consultant",
+    "achievements": [
+      "Evaluated different SW/HW architectures to communicate with a specific line of products",
+      "Developed and embedded a web app (Python3 with Flask and SQLite3) using different SBCs for monitoring. Key for closing a special contract with a major partner",
+      "Built a Bash Script automating the SBC's initial configuration, restart (failure and remote) and future updates through git"
+    ],
+    "progLanguages": ["Python3", "JavaScript", "Bash"],
+    "tools": ["Flask", "CSS", "Jinja2", "SQLite3", "Agile", "linux"],
+    "published": [],
+    "repo": ""
+  },
+  {
+    "company": {
+      "name": "Clinique Nutrisanté",
+      "city": "Annecy",
+      "country": "FR"
+    },
+    "startDate": "January 2019",
+    "endDate": "October 2020",
+    "jobTitle": "Software Engineer",
+    "achievements": [
+      "Planned, developed and deployed a Full Stack web application using the MERN stack (MongoDB, Express, React and NodeJS) for a nutritionist. It includes CRUD functionality for publishing articles using Markdown, client account management, appointments and payment (Stripe)"
+    ],
+    "progLanguages": ["JavaScript"],
+    "tools": [
+      "NextJS",
+      "Sass",
+      "NodeJS",
+      "Express",
+      "MongoDB",
+      "DigitalOcean",
+      "linux"
+    ],
+    "published": [
+      { "resource": "web 1", "url": "cliniquenutrisante.net" },
+      { "resource": "web 2", "url": "cliniquenutrisante.fr" }
+    ],
+    "repo": ""
+  },
+  {
+    "company": {
+      "name": "Bordeaux INP",
+      "city": "Bordeaux",
+      "country": "FR"
+    },
+    "startDate": "October 2014",
+    "endDate": "September 2017",
+    "jobTitle": "System Engineer",
+    "achievements": [
+      "Developed an innovative and bespoke Power Amplifier linearization system, based on the Cartesian Feedback method",
+      "Published 3 articles (2 international) and presented them in conferences",
+      "Mentored 2 interns that contributed to the project",
+      "Taught 2 courses (VHDL and power amplifier project) at the Engineering School ENSEIRB"
+    ],
+    "progLanguages": ["Matlab", "VHDL"],
+    "tools": ["COTS dev kits"],
+    "published": [],
+    "repo": ""
+  },
+  {
+    "company": {
+      "name": "Alstom",
+      "city": "Grenoble",
+      "country": "FR"
+    },
+    "startDate": "April 2013",
+    "endDate": "September 2013",
+    "jobTitle": "Engineer Assistant",
+    "achievements": [
+      "Redacted the specifications of the tests (electromagnetic, mechanic and temperature to homologate and validate a prototype product under CE and FCC standards",
+      "Created configuration files for the test-bench"
+    ],
+    "progLanguages": ["C"],
+    "tools": ["linux"],
+    "published": [
+      {
+        "resource": "article 1",
+        "url": "https://ieeexplore.ieee.org/document/7598199"
+      },
+      {
+        "resource": "article 2",
+        "url": "https://ieeexplore.ieee.org/document/7841247"
+      }
+    ],
+    "repo": ""
+  }
+]

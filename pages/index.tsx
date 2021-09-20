@@ -1,3 +1,7 @@
-const Index = () => <p>Hello from devweb TypeScript</p>;
+import { FC } from "react";
+
+import Hero from "../components/hero";
+
+const Index: FC = () => <Hero />;
 
 export default Index;
