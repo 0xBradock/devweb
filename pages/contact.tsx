@@ -28,9 +28,9 @@ const Contact: FC = () => (
         architecture, lead interns, DevOps and coding.
       </p>
       <p>
-        🎢 In my personal life, I also enjoy mountaineering, cooking and
-        travelling. It helps me to see the world with new perspectives and keeps
-        my adrenaline levels high.
+        🏔 I thoroughly enjoy mountaineering which helped me overcome my fear of
+        heights while building strong team management skills, and it keeps my
+        adrenaline levels high.
       </p>
     </div>
     <div className="contact__social">
